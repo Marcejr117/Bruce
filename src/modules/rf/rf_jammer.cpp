@@ -40,7 +40,7 @@ void RFJammer::run_full_jammer() {
     int tmr0 = millis();                 // control total jammer time;
 
     while (sendRF) {
-        if (check(EscPress))) {
+        if (check(EscPress)) {
             sendRF = false;
             returnToMenu = true;
             break;
